@@ -38,7 +38,7 @@ document.getElementById('slde').style.OTransform='translate3d(-2300px,500px,-400
 document.getElementById('slde').style.transform='translate3d(-2300px,500px,-4000px)';
 setTimeout(obox,2000);}
 
-window.onscroll=function(){if(onscr){var ey=document.body.scrollTop+500;
+window.onscroll=function(){if(onscr){var ey=document.documentElement.scrollTop+500;
 document.getElementById('slde').style.webkitTransform='translateY('+ey+'px)';
 document.getElementById('slde').style.MozTransform='translateY('+ey+'px)';
 document.getElementById('slde').style.msTransform='translateY('+ey+'px)';
