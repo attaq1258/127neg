@@ -4,7 +4,7 @@ const regex=/[бвгджзйклмнпрстфхцчшщ]+[аеёиоуыэюя]
 let out='', offset=0, prev=0, pass=false;
 let matches=text.matchAll(regex);
 for (const m of matches) {
-let hyphen=text[prev - 1]==' '?'':'\n';
+let hyphen=text[prev - 1]==' '?'':'&shy;';
 out += text.substring(offset, prev)+hyphen;offset=prev;
 if (!pass)prev=m.index; pass=m[0].length < 2;}
 out += text.substring(offset);return out;}
