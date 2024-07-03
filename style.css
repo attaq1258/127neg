@@ -2,13 +2,13 @@ body {margin:0;font-family:verdana,arial,sans-serif;font-size:14px;text-align:ce
 img {border:0 none}
 a {font-size:1.5em;color:#663300;font-weight:bold;text-decoration:none;border-bottom:3px double #C09739;}
 a:hover {border-bottom:3px groove #C09739;}
-table {width:100%;font-size:14px;text-align:left;border:3px solid blue;}
+table {width:100%;font-size:14px;line-height:0.9;text-align:left;border:3px solid blue;}
 td {border:1px solid blue;text-align:left}
 .bod {position:relative;margin:0px auto;width:800px;text-align:center;overflow:hidden;-webkit-transform-style:preserve-3d;-webkit-perspective:1000px;}
 
-#slde {position:absolute;top:-400px;left:150px;width:510px;background-color:#ccccff;z-index:1;-webkit-transition:-webkit-transform 2s;-moz-transition:-moz-transform 2s;-o-transition:-o-transform 2s;transition:transform 2s;}
+#slde {position:absolute;top:-400px;left:130px;width:550px;background-color:#ccccff;z-index:1;-webkit-transition:-webkit-transform 2s;-moz-transition:-moz-transform 2s;-o-transition:-o-transform 2s;transition:transform 2s;}
 .player {position:absolute;top:0px;left:0px;opacity:0.6;}
-#metr {color:#000088;line-height:80%;}
+#metr {color:#000088;letter-spacing:-2px;line-height:80%;}
 .right {float:right;}
 .left {float:left;}
 #text {text-align:justify;margin:10px 2px;hyphens:auto;}
