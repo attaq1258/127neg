@@ -7,7 +7,8 @@ table {width:100%;font-size:14px;line-height:0.9;text-align:left;border:3px soli
 td {border:1px solid blue;text-align:left}
 .bod {position:relative;margin:0px auto;width:800px;text-align:center;overflow:hidden;-webkit-transform-style:preserve-3d;-webkit-perspective:1000px;}
 #canvas {position:absolute;top:0px;width:800px;height:800px;border-collapse:collapse;border:none;pointer-events:none;}
-#canvas td {border:1px dashed rgba(255,215,100,.2);}
+#canvas td {width:160px;height:160px;border:1px dashed rgba(255,215,100,.2);}
+.canv {width:100px;height:100px;}
 
 #slde {position:absolute;top:-400px;left:130px;width:550px;background-color:#ccccff;z-index:1;-webkit-transition:-webkit-transform 2s;-moz-transition:-moz-transform 2s;-o-transition:-o-transform 2s;transition:transform 2s;}
 .player {position:absolute;top:0px;left:0px;opacity:0.6;}
