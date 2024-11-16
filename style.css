@@ -1,5 +1,6 @@
 body {margin:0;font-family:verdana,arial,sans-serif;font-size:14px;text-align:center;background-image:url('bckgrnd.gif')}
 img {border:0 none}
+#mand {width:800px;height:800px;}
 a {font-size:1.5em;color:#663300;font-weight:bold;text-decoration:none;border-bottom:3px double #C09739;}
 a:hover {border-bottom:3px groove #C09739;}
 table {width:100%;font-size:14px;line-height:0.9;text-align:left;border:3px solid blue;}
