@@ -8,10 +8,10 @@ td {border:1px solid blue;text-align:left}
 .bod {position:relative;margin:0px auto;width:800px;text-align:center;overflow:hidden;-webkit-transform-style:preserve-3d;-webkit-perspective:1000px;}
 #canvas {position:absolute;top:0px;width:800px;height:800px;border-collapse:collapse;border:none;pointer-events:none;}
 #canvas td {width:160px;height:160px;border:1px dashed rgba(255,215,100,.2);}
-.canv {width:100px;height:100px;opacity:0.7;}
-.can {opacity:0.7;}
-.usp {width:110px;height:150px;opacity:0.7;}
-.enn {width:140px;height:150px;opacity:0.7;}
+.canv {width:100px;height:100px;opacity:0.8;}
+.can {opacity:0.8;}
+.usp {width:110px;height:150px;opacity:0.8;}
+.enn {width:140px;height:150px;opacity:0.8;}
 
 #slde {position:absolute;top:-400px;left:130px;width:550px;background-color:#ccccff;z-index:1;-webkit-transition:-webkit-transform 2s;-moz-transition:-moz-transform 2s;-o-transition:-o-transform 2s;transition:transform 2s;}
 .player {position:absolute;top:0px;left:0px;opacity:0.6;}
