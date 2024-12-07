@@ -14,7 +14,7 @@ td {border:1px solid blue;text-align:left}
 .enn {width:140px;height:150px;opacity:0.8;}
 
 #slde {position:absolute;top:-400px;left:130px;width:550px;background-color:#ccccff;z-index:1;-webkit-transition:-webkit-transform 2s;-moz-transition:-moz-transform 2s;-o-transition:-o-transform 2s;transition:transform 2s;}
-.player {position:absolute;top:0px;left:0px;opacity:0.6;}
+audio {width:500px;position:absolute;top:0px;left:0px;opacity:0.6;}
 #metr {color:#000088;letter-spacing:-2px;line-height:80%;}
 .right {float:right;}
 .left {float:left;}
